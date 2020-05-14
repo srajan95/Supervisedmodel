@@ -1,0 +1,9 @@
+The target variable is solar_system_count. This variable is a binary variable indicating the coverage of solar power systems in a given
+tile. The variable takes outcome low if the tile has a low number of solar power systems (less than or equal to 10), while it takes outcome high if the tile has a large number of solar power systems (more than 10).
+Use the supervised classification methods described in this course to predict the solar power system coverage of a tile given the 
+collection of predictor features. Use a range of methods and evaluate/discuss their relative merits. In the end, you should base
+your conclusions and interpretations on the best model you find. Write a report summarising your analysis.
+Discard the target variable solar_system_count and the variable state (recording the US state of a tile).
+Perform a cluster analysis on a subset of the predictor variables of your choice and compare the obtained clustering with the
+classification into states. Motivate the choice of the subset of predictor variables in relation to the purpose of the cluster 
+analysis and provide an interpretation of the detected clusters.
